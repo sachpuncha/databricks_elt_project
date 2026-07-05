@@ -130,7 +130,7 @@ them to the workflow.
     │   ├── bronze/
     │   ├── silver/
     │   └── gold/
-    |   |__ xpore/
+    |   |__ xplore/
     │
     ├── sql_queries/
     ├── images/
