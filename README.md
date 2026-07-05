@@ -7,16 +7,8 @@ and Delta Lake following the Medallion Architecture.
 
 **Architecture**
 
-    Raw CSV Files (Volumes)
-            │
-            ▼
-    Bronze (Raw Delta Tables)
-            │
-            ▼
-    Silver (Cleaned & Standardized Tables)
-            │
-            ▼
-    Gold (Business-ready Fact & Dimension Tables)
+<img width="881" height="551" alt="architecture_databricks" src="https://github.com/user-attachments/assets/d31dcfd8-36dd-4dd6-a32b-1bc4efae6387" />
+
 
 ## Tech Stack
 
