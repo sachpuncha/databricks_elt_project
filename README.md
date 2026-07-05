@@ -115,6 +115,10 @@ Databricks Job orchestrates the pipeline.
 During development notebooks were validated individually before adding
 them to the workflow.
 
+## Testing
+
+<img width="967" height="417" alt="image" src="https://github.com/user-attachments/assets/d1c9b984-27dc-4d66-b0eb-fe171c3f8897" />
+
 ## Design Decisions
 
 -   Delta tables used for every layer
