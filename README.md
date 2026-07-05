@@ -20,6 +20,10 @@ and Delta Lake following the Medallion Architecture.
 -   Unity Catalog
 -   GitHub
 
+## Data Flow
+
+<img width="831" height="551" alt="dataflow" src="https://github.com/user-attachments/assets/d9c7e592-379c-4601-935d-ff342529d9aa" />
+
 ## Bronze Layer
 
 ### Source
@@ -29,7 +33,7 @@ and Delta Lake following the Medallion Architecture.
 ### Processing
 
 -   Read CSV files
--   Infer/provide schema
+-   Schema
 -   Write as Delta tables
 
 ### Output
@@ -46,7 +50,7 @@ Typical transformations include:
 -   Keep latest record using Window functions
 -   Remove invalid IDs
 -   Trim whitespace
--   Standardize text (`initcap`)
+-   Standardize text
 -   Map gender (`M/F -> Male/Female`)
 -   Standardize marital status
 -   Replace invalid values with NULL/defaults
@@ -61,13 +65,15 @@ Output:
 
 -   `datawarehouse.silver.*`
 
+<img width="459" height="543" alt="table relationships" src="https://github.com/user-attachments/assets/4f24b5c9-d186-455a-8641-a86fa6711f39" />
+
+
 ## Gold Layer (Planned)
 
 Dimension tables:
 
 -   dim_customers
 -   dim_products
--   dim_locations
 
 Fact tables:
 
@@ -82,6 +88,9 @@ CREATE OR REPLACE TABLE datawarehouse.gold.dim_customers AS
 SELECT ...
 FROM datawarehouse.silver.customers_info_cleaned;
 ```
+
+<img width="751" height="412" alt="star schema relatio" src="https://github.com/user-attachments/assets/4cee346c-94bb-4976-b4a9-b8226ae886a3" />
+
 
 ## Workflow
 
