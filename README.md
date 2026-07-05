@@ -110,6 +110,7 @@ Databricks Job orchestrates the pipeline.
             │
             ▼
     Gold Facts
+<img width="690" height="412" alt="image" src="https://github.com/user-attachments/assets/20d443c0-4a89-4fc8-8e4f-f5bc853d40bb" />
 
 During development notebooks were validated individually before adding
 them to the workflow.
