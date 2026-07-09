@@ -143,15 +143,6 @@ them to the workflow.
     ├── images/
     └── README.md
 
-## Future Improvements
-
--   Incremental loading
--   Parameterized notebooks
--   Data quality checks
--   Logging and monitoring
--   Retry policies
--   CI/CD deployment
-
 ## Learning Outcomes
 
 -   Databricks Workflows
@@ -161,3 +152,7 @@ them to the workflow.
 -   SQL data warehousing
 -   Star schema design
 -   ELT orchestration
+
+## Author
+Sachethana Punchihewa
+
