@@ -10,7 +10,7 @@ and Delta Lake following the Medallion Architecture.
 <img width="881" height="551" alt="architecture_databricks" src="https://github.com/user-attachments/assets/d31dcfd8-36dd-4dd6-a32b-1bc4efae6387" />
 
 
-<img width="1028" height="1131" alt="databricks_new" src="https://github.com/user-attachments/assets/19338f51-cd25-421c-a2ba-97b04c50a44e" />
+<img width="1028" height="1131" alt="databricks new" src="https://github.com/user-attachments/assets/37c4bebc-53bc-42a8-baa2-b6b743be020f" />
 
 
 ## Tech Stack
